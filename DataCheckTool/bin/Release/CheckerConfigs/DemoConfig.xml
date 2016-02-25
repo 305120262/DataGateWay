@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Checkers>
+  <Checker Type="DataGateWay.Checkers.CheckOverlapPoints" Description="点重叠检查">
+    <parameters>
+      <p>点A</p>
+      <p></p>
+    </parameters>
+  </Checker>
+  <Checker Type="DataGateWay.Checkers.CheckPointsInsidePolygon" Description="点是否存在于面内检查">
+    <parameters>
+      <p>点B</p>
+      <p>面A</p>
+      <p></p>
+      <p></p>
+    </parameters>
+  </Checker>
+  <Checker Type="DataGateWay.Checkers.CheckPointOnLineEndPoints" Description="点是否在线的端点上">
+    <parameters>
+      <p>点A</p>
+      <p>线A</p>
+      <p></p>
+      <p></p>
+    </parameters>
+  </Checker>
+  <Checker Type="DataGateWay.Checkers.CheckPointOnLine" Description="点是否在线上">
+    <parameters>
+      <p>点A</p>
+      <p>线A</p>
+      <p></p>
+      <p></p>
+    </parameters>
+  </Checker>
+  <Checker Type="DataGateWay.Checkers.CheckLineEndPointsHasPoint" Description="线端点上是否有点">
+    <parameters>
+      <p>线A</p>
+      <p>点A</p>
+      <p></p>
+      <p></p>
+    </parameters>
+  </Checker>
+  <Checker Type="DataGateWay.Checkers.CheckContourLinesIntersect" Description="等高线相交检查">
+    <parameters>
+      <p>线A</p>
+      <p></p>
+      <p></p>
+      <p></p>
+    </parameters>
+  </Checker>
+  <Checker Type="DataGateWay.Checkers.CheckCompositeNodesDistance" Description="复合线节点间距检查">
+    <parameters>
+      <p>线A</p>
+      <p></p>
+      <p></p>
+    </parameters>
+  </Checker>
+  <Checker Type="DataGateWay.Checkers.CheckTwoRedundantLines" Description="两个结点间的冗余线检查">
+    <parameters>
+      <p>线A</p>
+      <p>线B</p>
+      <p>OBJECTID</p>
+      <p></p>
+      <p></p>
+    </parameters>
+  </Checker>
+  <Checker Type="DataGateWay.Checkers.CheckLineCrossPolygon" Description="两集合间线穿越">
+    <parameters>
+      <p>线A</p>
+      <p>面A</p>
+      <p></p>
+      <p></p>
+    </parameters>
+  </Checker>
+  <Checker Type="DataGateWay.Checkers.CheckRedundantLines" Description="冗余线检查">
+    <parameters>
+      <p>线A</p>
+      <p>线B</p>
+      <p>OBJECTID</p>
+      <p></p>
+      <p></p>
+    </parameters>
+  </Checker>
+  <Checker Type="DataGateWay.Checkers.CheckBrokenLines" Description="碎线检查">
+    <parameters>
+      <p>线A</p>
+      <p></p>
+      <p></p>
+    </parameters>
+  </Checker>
+  <Checker Type="DataGateWay.Checkers.CheckIntersectLines" Description="线线相交检查">
+    <parameters>
+      <p>线A</p>
+      <p>线B</p>
+      <p></p>
+      <p></p>
+    </parameters>
+  </Checker>
+  <Checker Type="DataGateWay.Checkers.CheckOverlapLines" Description="线重叠检查">
+    <parameters>
+      <p>线A</p>
+      <p></p>
+    </parameters>
+  </Checker>
+  <Checker Type="DataGateWay.Checkers.CheckSelfIntersectLines" Description="线自相交检查">
+    <parameters>
+      <p>线A</p>
+      <p></p>
+    </parameters>
+  </Checker>
+  <Checker Type="DataGateWay.Checkers.CheckReentryLines" Description="折返线检查">
+    <parameters>
+      <p>线A</p>
+      <p></p>
+    </parameters>
+  </Checker>
+  <Checker Type="DataGateWay.Checkers.CheckPolygonInsidePolygon" Description="面1是否在面2内">
+    <parameters>
+      <p>面A</p>
+      <p>面B</p>
+      <p></p>
+      <p></p>
+    </parameters>
+  </Checker>
+  <Checker Type="DataGateWay.Checkers.CheckClosedPolygons" Description="面闭合检查">
+    <parameters>
+      <p>面A</p>
+      <p></p>
+    </parameters>
+  </Checker>
+  <Checker Type="DataGateWay.Checkers.CheckIntersectPolygons" Description="面叠盖检查">
+    <parameters>
+      <p>面A</p>
+      <p>面B</p>
+      <p></p>
+      <p></p>
+    </parameters>
+  </Checker>
+  <Checker Type="DataGateWay.Checkers.CheckPolygonIsCounterclockwise" Description="面逆时针检查">
+    <parameters>
+      <p>面A</p>
+      <p></p>
+    </parameters>
+  </Checker>
+  <Checker Type="DataGateWay.Checkers.CheckPolygonIsCounterclockwise" Description="面顺时针检查">
+    <parameters>
+      <p>面A</p>
+      <p></p>
+    </parameters>
+  </Checker>
+  <Checker Type="DataGateWay.Checkers.CheckBrokenPolygons" Description="碎片检查">
+    <parameters>
+      <p>面A</p>
+      <p></p>
+    </parameters>
+  </Checker>
+  <Checker Type="DataGateWay.Checkers.CheckPolygonTouchLine" Description="面的边界是否被线压盖">
+    <parameters>
+      <p>线A</p>
+      <p>面A</p>
+      <p></p>
+      <p></p>
+    </parameters>
+  </Checker>
+  <Checker Type="DataGateWay.Checkers.CheckLineTouchPolygon" Description="线是否在面的边界上">
+    <parameters>
+      <p>线A</p>
+      <p>面A</p>
+      <p></p>
+      <p></p>
+    </parameters>
+  </Checker>
+    <Checker Type="DataGateWay.Checkers.CheckSuspensionNodesOnPolygon" Description="面悬挂检查">
+      <parameters>
+        <p>面A</p>
+        <p>面B</p>
+        <p></p>
+        <p></p>
+      </parameters>
+    </Checker>
+    <Checker Type="DataGateWay.Checkers.CheckPolygonsHasGap" Description="面缝隙检查">
+      <parameters>
+        <p>面A</p>
+        <p>面B</p>
+        <p></p>
+        <p></p>
+      </parameters>
+    </Checker>
+    <Checker Type="DataGateWay.Checkers.CheckOverlapPointsOnLine" Description="线上重复点检查">
+      <parameters>
+        <p>线A</p>
+        <p></p>
+      </parameters>
+    </Checker>
+    <Checker Type="DataGateWay.Checkers.CheckPseudoNodesOnLine" Description="线伪结点检查">
+      <parameters>
+        <p>线A</p>
+        <p>线B</p>
+        <p></p>
+        <p></p>
+      </parameters>
+    </Checker>
+    <Checker Type="DataGateWay.Checkers.CheckContourAnnotation" Description="等高线高程注记检查">
+      <parameters>
+        <p>注记</p>
+        <p>线A</p>
+        <p>Notation</p>
+      </parameters>
+    </Checker>
+    <Checker Type="DataGateWay.Checkers.CheckElevationPoints" Description="高程点注记检查">
+      <parameters>
+        <p>注记</p>
+        <p>点B</p>
+        <p>Notation</p>
+        <p>？</p>
+      </parameters>
+    </Checker>
+    <Checker Type="DataGateWay.Checkers.CheckBuildingAnno" Description="建筑物注记检查">
+      <parameters>
+        <p></p>
+        <p></p>
+        <p></p>
+      </parameters>
+    </Checker>
+    <Checker Type="DataGateWay.Checkers.CheckBuildingAnnoIntegrity" Description="建筑物注记完整性检查">
+      <parameters>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+      </parameters>
+    </Checker>
+    <Checker Type="DataGateWay.Checkers.CheckBoundaryPointAnno" Description="界址点注记检查">
+      <parameters>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+      </parameters>
+    </Checker>
+    <Checker Type="DataGateWay.Checkers.CheckSphereValue" Description="（线）值域检查（其他方式的值域检测也可以使用）">
+      <parameters>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+      </parameters>
+    </Checker>
+  </Checkers>

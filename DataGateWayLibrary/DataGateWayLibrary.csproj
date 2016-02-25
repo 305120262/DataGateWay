@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1575A70D-39B7-4819-91E6-9A69E0496B4D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DataGateWay</RootNamespace>
+    <AssemblyName>DataGateWayLibrary</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ESRI.ArcGIS.ADF.Local, Version=10.0.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.DataSourcesFile, Version=10.0.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.DataSourcesGDB, Version=10.0.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.Geodatabase, Version=10.0.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.Geometry, Version=10.0.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.System, Version=10.0.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Checkers\CheckBoundaryPointAnno.cs" />
+    <Compile Include="Checkers\CheckBrokenLines.cs" />
+    <Compile Include="Checkers\CheckBrokenPolygons.cs" />
+    <Compile Include="Checkers\CheckBuildingAnno.cs" />
+    <Compile Include="Checkers\CheckBuildingAnnoIntegrity.cs" />
+    <Compile Include="Checkers\CheckClosedPolygons.cs" />
+    <Compile Include="Checkers\CheckCompositeNodesDistance.cs" />
+    <Compile Include="Checkers\CheckContourAnnotation.cs" />
+    <Compile Include="Checkers\CheckContourLinesIntersect.cs" />
+    <Compile Include="Checkers\CheckElevationPoints.cs" />
+    <Compile Include="Checkers\CheckIntersectLines.cs" />
+    <Compile Include="Checkers\CheckIntersectPolygons.cs" />
+    <Compile Include="Checkers\CheckLineCrossPolygon.cs" />
+    <Compile Include="Checkers\CheckLineEndPointsHasPoint.cs" />
+    <Compile Include="Checkers\CheckLineTouchPolygon.cs" />
+    <Compile Include="Checkers\CheckOverlapLines.cs" />
+    <Compile Include="Checkers\CheckOverlapPoints.cs" />
+    <Compile Include="Checkers\CheckOverlapPointsOnLine.cs" />
+    <Compile Include="Checkers\CheckOverlapPolygons.cs" />
+    <Compile Include="Checkers\CheckPointOnLine.cs" />
+    <Compile Include="Checkers\CheckPointOnLineEndPoints.cs" />
+    <Compile Include="Checkers\CheckPointsInsidePolygon.cs" />
+    <Compile Include="Checkers\CheckPolygonInsidePolygon.cs" />
+    <Compile Include="Checkers\CheckPolygonIsClockwise.cs" />
+    <Compile Include="Checkers\CheckPolygonIsCounterclockwise.cs" />
+    <Compile Include="Checkers\CheckPolygonsHasGap.cs" />
+    <Compile Include="Checkers\CheckPolygonTouchLine.cs" />
+    <Compile Include="Checkers\CheckPseudoNodesOnLine.cs" />
+    <Compile Include="Checkers\CheckRedundantLines.cs" />
+    <Compile Include="Checkers\CheckReentryLines.cs" />
+    <Compile Include="Checkers\CheckSelfIntersectLines.cs" />
+    <Compile Include="Checkers\CheckSphereValue.cs" />
+    <Compile Include="Checkers\CheckSuspensionNodesOnPolygon.cs" />
+    <Compile Include="Checkers\CheckTwoRedundantLines.cs" />
+    <Compile Include="Checkers\CheckerUtil.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QC\BaseChecker.cs" />
+    <Compile Include="QC\BaseCheckerManager.cs" />
+    <Compile Include="QC\CheckError.cs" />
+    <Compile Include="QC\IChecker.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Task\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

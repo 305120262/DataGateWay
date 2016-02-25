@@ -1,0 +1,5 @@
+E:\程序数据\VisualStudio\VS2010\DataGateWay\DataGateWayLibrary\bin\Release\DataGateWayLibrary.dll
+E:\程序数据\VisualStudio\VS2010\DataGateWay\DataGateWayLibrary\bin\Release\DataGateWayLibrary.pdb
+E:\程序数据\VisualStudio\VS2010\DataGateWay\DataGateWayLibrary\obj\Release\ResolveAssemblyReference.cache
+E:\程序数据\VisualStudio\VS2010\DataGateWay\DataGateWayLibrary\obj\Release\DataGateWayLibrary.dll
+E:\程序数据\VisualStudio\VS2010\DataGateWay\DataGateWayLibrary\obj\Release\DataGateWayLibrary.pdb

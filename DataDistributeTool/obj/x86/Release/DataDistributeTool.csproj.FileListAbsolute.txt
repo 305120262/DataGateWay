@@ -1,0 +1,13 @@
+E:\程序数据\VisualStudio\VS2010\DataGateWay\DataDistributeTool\bin\Release\DataDistributeTool.exe
+E:\程序数据\VisualStudio\VS2010\DataGateWay\DataDistributeTool\bin\Release\DataDistributeTool.pdb
+E:\程序数据\VisualStudio\VS2010\DataGateWay\DataDistributeTool\obj\x86\Release\ResolveAssemblyReference.cache
+E:\程序数据\VisualStudio\VS2010\DataGateWay\DataDistributeTool\obj\x86\Release\DataCheckToolAuxiliary.Form1.resources
+E:\程序数据\VisualStudio\VS2010\DataGateWay\DataDistributeTool\obj\x86\Release\DataDistributeTool.Properties.Resources.resources
+E:\程序数据\VisualStudio\VS2010\DataGateWay\DataDistributeTool\obj\x86\Release\DataCheckToolAuxiliary.setting.resources
+E:\程序数据\VisualStudio\VS2010\DataGateWay\DataDistributeTool\obj\x86\Release\DataCheckToolAuxiliary.setting2.resources
+E:\程序数据\VisualStudio\VS2010\DataGateWay\DataDistributeTool\obj\x86\Release\GenerateResource-ResGen.read.1.tlog
+E:\程序数据\VisualStudio\VS2010\DataGateWay\DataDistributeTool\obj\x86\Release\GenerateResource-ResGen.write.1.tlog
+E:\程序数据\VisualStudio\VS2010\DataGateWay\DataDistributeTool\obj\x86\Release\DataDistributeTool.exe
+E:\程序数据\VisualStudio\VS2010\DataGateWay\DataDistributeTool\obj\x86\Release\DataDistributeTool.pdb
+E:\程序数据\VisualStudio\VS2010\DataGateWay\DataDistributeTool\bin\Release\DevComponents.DotNetBar.Design.dll
+E:\程序数据\VisualStudio\VS2010\DataGateWay\DataDistributeTool\bin\Release\DevComponents.DotNetBar2.dll

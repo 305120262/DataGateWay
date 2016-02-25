@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Checkers>
+  <Checker Type="DataGateWay.Checkers.CheckOverlapPoints" Description="点重叠">
+    <parameters>
+      <p>T1Q_ELEV_POINT_HQ</p>
+      <p></p>
+    </parameters>
+  </Checker>
+</Checkers>

@@ -1,0 +1,42 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="DataGateWay.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="SDEServer" Type="System.String" Scope="User">
+      <Value Profile="(Default)">localhost</Value>
+    </Setting>
+    <Setting Name="SDEService" Type="System.String" Scope="User">
+      <Value Profile="(Default)">5151</Value>
+    </Setting>
+    <Setting Name="SDEUser" Type="System.String" Scope="User">
+      <Value Profile="(Default)">sde</Value>
+    </Setting>
+    <Setting Name="SDEDB" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="SDEVersion" Type="System.String" Scope="User">
+      <Value Profile="(Default)">sde.DEFAULT</Value>
+    </Setting>
+    <Setting Name="CheckOutArea" Type="System.String" Scope="User">
+      <Value Profile="(Default)">tqindex</Value>
+    </Setting>
+    <Setting Name="CheckOutAreaID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">th</Value>
+    </Setting>
+    <Setting Name="Grid" Type="System.String" Scope="User">
+      <Value Profile="(Default)">tqindex</Value>
+    </Setting>
+    <Setting Name="GridCodeField" Type="System.String" Scope="User">
+      <Value Profile="(Default)">th</Value>
+    </Setting>
+    <Setting Name="MapDoc" Type="System.String" Scope="User">
+      <Value Profile="(Default)">E:\测试地图.mxd</Value>
+    </Setting>
+    <Setting Name="SDEPassword" Type="System.String" Scope="User">
+      <Value Profile="(Default)">sde</Value>
+    </Setting>
+    <Setting Name="DataTemplate" Type="System.String" Scope="User">
+      <Value Profile="(Default)">E:\XMLExport.xml</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

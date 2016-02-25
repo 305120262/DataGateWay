@@ -1,0 +1,23 @@
+C:\Documents and Settings\admin\My Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Documents and Settings\admin\My Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Documents and Settings\admin\My Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\admin\My Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+C:\Documents and Settings\admin\My Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Documents and Settings\admin\My Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+C:\Documents and Settings\admin\My Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
+C:\Documents and Settings\admin\My Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Documents and Settings\admin\My Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.setting.resources
+C:\Documents and Settings\admin\My Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Documents and Settings\admin\My Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Documents and Settings\admin\My Documents\Visual Studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.setting2.resources
+E:\工作任务\201108深圳国土数据交换QC系统开发\陈基清\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\DataCheckToolAuxillary.exe
+E:\工作任务\201108深圳国土数据交换QC系统开发\陈基清\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\DataCheckToolAuxillary.pdb
+E:\工作任务\201108深圳国土数据交换QC系统开发\陈基清\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\工作任务\201108深圳国土数据交换QC系统开发\陈基清\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\DataCheckToolAuxillary.Properties.Resources.resources
+E:\工作任务\201108深圳国土数据交换QC系统开发\陈基清\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+E:\工作任务\201108深圳国土数据交换QC系统开发\陈基清\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+E:\工作任务\201108深圳国土数据交换QC系统开发\陈基清\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\DataCheckToolAuxillary.exe
+E:\工作任务\201108深圳国土数据交换QC系统开发\陈基清\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\DataCheckToolAuxillary.pdb
+E:\工作任务\201108深圳国土数据交换QC系统开发\陈基清\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\DataCheckToolAuxiliary.Form1.resources
+E:\工作任务\201108深圳国土数据交换QC系统开发\陈基清\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\DataCheckToolAuxiliary.setting.resources
+E:\工作任务\201108深圳国土数据交换QC系统开发\陈基清\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\DataCheckToolAuxiliary.setting2.resources

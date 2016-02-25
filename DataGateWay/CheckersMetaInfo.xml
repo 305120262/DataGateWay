@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Checkers>
+  <Checker Type="DataGateWay.Checkers.CheckOverlapPoints" Description="点重叠检查">
+    <parameters>
+      <p Optional="false">点图层名称</p>
+      <p Optional="true" >点查询SQL语句</p>
+    </parameters>
+  </Checker>
+  <Checker Type="DataGateWay.Checkers.CheckPointsInsidePolygon" Description="点是否存在于面内检查">
+    <parameters>
+      <p Optional="false">点图层名称</p>
+      <p Optional="false">面图层名称</p>
+      <p Optional="true">点查询SQL语句</p>
+      <p Optional="true">面查询SQL语句</p>
+    </parameters>
+  </Checker>
+  <Checker Type="DataGateWay.Checkers.CheckPointOnLineEndPoints" Description="点是否在线的端点上">
+    <parameters>
+      <p Optional="false">点图层名称</p>
+      <p Optional="false">线图层名称</p>
+      <p Optional="true">点查询SQL语句</p>
+      <p Optional="true">线查询SQL语句</p>
+    </parameters>
+  </Checker>
+  <Checker Type="DataGateWay.Checkers.CheckPointOnLine" Description="点是否在线上">
+    <parameters>
+      <p Optional="false">点图层名称</p>
+      <p Optional="false">线图层名称</p>
+      <p Optional="true">点查询SQL语句</p>
+      <p Optional="true">线查询SQL语句</p>
+    </parameters>
+  </Checker>
+  <Checker Type="DataGateWay.Checkers.CheckLineEndPointsHasPoint" Description="线端点上是否有点">
+    <parameters>
+      <p Optional="false">线图层名称</p>
+      <p Optional="false">点图层名称</p>
+      <p Optional="true">线查询SQL语句</p>
+      <p Optional="true">点查询SQL语句</p>
+    </parameters>
+  </Checker>
+  <Checker Type="DataGateWay.Checkers.CheckContourLinesIntersect" Description="等高线相交检查">
+    <parameters>
+      <p Optional="false">等高线图层名称</p>
+      <p Optional="true">查询SQL语句</p>
+    </parameters>
+  </Checker>
+  <Checker Type="DataGateWay.Checkers.CheckCompositeNodesDistance" Description="复合线节点间距检查">
+    <parameters>
+      <p Optional="false">线图层名称</p>
+      <p Optional="true">节点间距值</p>
+      <p Optional="true">线查询SQL语句</p>
+    </parameters>
+  </Checker>
+  <Checker Type="DataGateWay.Checkers.CheckTwoRedundantLines" Description="两个结点间的冗余线检查">
+    <parameters>
+      <p Optional="false">线图层名称</p>
+      <p Optional="false">线图层名称</p>
+      <p Optional="false">编码字段名称</p>
+      <p Optional="true">线查询SQL语句</p>
+      <p Optional="true">线查询SQL语句</p>
+    </parameters>
+  </Checker>
+  <Checker Type="DataGateWay.Checkers.CheckLineCrossPolygon" Description="两集合间线穿越">
+    <parameters>
+      <p Optional="false">线图层名称</p>
+      <p Optional="false">面图层名称</p>
+      <p Optional="true">线查询SQL语句</p>
+      <p Optional="true">面查询SQL语句</p>
+    </parameters>
+  </Checker>
+  <Checker Type="DataGateWay.Checkers.CheckRedundantLines" Description="冗余线检查">
+    <parameters>
+      <p Optional="false">线图层名称</p>
+      <p Optional="false">线图层名称</p>
+      <p Optional="false">编码字段名称</p>
+      <p Optional="true">线查询SQL语句</p>
+      <p Optional="true">线查询SQL语句</p>
+    </parameters>
+  </Checker>
+  <Checker Type="DataGateWay.Checkers.CheckBrokenLines" Description="碎线检查">
+    <parameters>
+      <p Optional="false">线图层名称</p>
+      <p Optional="false">最小线长度</p>
+      <p Optional="true">线查询SQL语句</p>
+    </parameters>
+  </Checker>
+  <Checker Type="DataGateWay.Checkers.CheckIntersectLines" Description="线线相交检查">
+    <parameters>
+      <p Optional="false">线图层名称</p>
+      <p Optional="false">线图层名称</p>
+      <p Optional="true">线查询SQL语句</p>
+      <p Optional="true">线查询SQL语句</p>
+    </parameters>
+  </Checker>
+  <Checker Type="DataGateWay.Checkers.CheckOverlapLines" Description="线重叠检查">
+    <parameters>
+      <p Optional="false">线图层名称</p>
+      <p Optional="true">线查询SQL语句</p>
+    </parameters>
+  </Checker>
+  <Checker Type="DataGateWay.Checkers.CheckSelfIntersectLines" Description="线自相交检查">
+    <parameters>
+      <p Optional="false">线图层名称</p>
+      <p Optional="true">线查询SQL语句</p>
+    </parameters>
+  </Checker>
+  <Checker Type="DataGateWay.Checkers.CheckReentryLines" Description="折返线检查">
+    <parameters>
+      <p Optional="false">线图层名称</p>
+      <p Optional="false">夹角角度值</p>
+      <p Optional="true">线查询SQL语句</p>
+    </parameters>
+  </Checker>
+  <Checker Type="DataGateWay.Checkers.CheckPolygonInsidePolygon" Description="面1是否在面2内">
+    <parameters>
+      <p Optional="false">面图层名称</p>
+      <p Optional="false">面图层名称</p>
+      <p Optional="true">面查询SQL语句</p>
+      <p Optional="true">面查询SQL语句</p>
+    </parameters>
+  </Checker>
+  <Checker Type="DataGateWay.Checkers.CheckClosedPolygons" Description="面闭合检查">
+    <parameters>
+      <p Optional="false">面图层名称</p>
+      <p Optional="true">面查询SQL语句</p>
+    </parameters>
+  </Checker>
+  <Checker Type="DataGateWay.Checkers.CheckIntersectPolygons" Description="面叠盖检查">
+    <parameters>
+      <p Optional="false">面图层名称</p>
+      <p Optional="false">面图层名称</p>
+      <p Optional="true">面查询SQL语句</p>
+      <p Optional="true">面查询SQL语句</p>
+    </parameters>
+  </Checker>
+  <Checker Type="DataGateWay.Checkers.CheckPolygonIsCounterclockwise" Description="面逆时针检查">
+    <parameters>
+      <p>面图层名称</p>
+      <p>面查询SQL语句</p>
+    </parameters>
+  </Checker>
+  <Checker Type="DataGateWay.Checkers.CheckPolygonIsCounterclockwise" Description="面顺时针检查">
+    <parameters>
+      <p>面图层名称</p>
+      <p>面查询SQL语句</p>
+    </parameters>
+  </Checker>
+  <Checker Type="DataGateWay.Checkers.CheckBrokenPolygons" Description="碎片检查">
+    <parameters>
+      <p>面图层名称</p>
+      <p>最小面积值</p>
+      <p>面查询SQL语句</p>
+    </parameters>
+  </Checker>
+  <Checker Type="DataGateWay.Checkers.CheckPolygonTouchLine" Description="面的边界是否被线压盖">
+    <parameters>
+      <p>面图层名称</p>
+      <p>线图层名称</p>
+      <p>面查询SQL语句</p>
+      <p>线查询SQL语句</p>
+    </parameters>
+  </Checker>
+  <Checker Type="DataGateWay.Checkers.CheckLineTouchPolygon" Description="线是否在面的边界上">
+    <parameters>
+      <p>线图层名称</p>
+      <p>面图层名称</p>
+      <p>线查询SQL语句</p>
+      <p>面查询SQL语句</p>
+    </parameters>
+  </Checker>
+  <Checker Type="DataGateWay.Checkers.CheckSuspensionNodesOnPolygon" Description="面悬挂检查">
+    <parameters>
+      <p>面图层名称</p>
+      <p>面图层名称</p>
+      <p>面查询SQL语句</p>
+      <p>面查询SQL语句</p>
+    </parameters>
+  </Checker>
+  <Checker Type="DataGateWay.Checkers.CheckPolygonsHasGap" Description="面缝隙检查">
+    <parameters>
+      <p>面图层名称</p>
+      <p>面图层名称</p>
+      <p>面查询SQL语句</p>
+      <p>面查询SQL语句</p>
+    </parameters>
+  </Checker>
+  <Checker Type="DataGateWay.Checkers.CheckOverlapPointsOnLine" Description="线上重复点检查">
+    <parameters>
+      <p>线图层名称</p>
+      <p>线查询SQL语句</p>
+    </parameters>
+  </Checker>
+  <Checker Type="DataGateWay.Checkers.CheckPseudoNodesOnLine" Description="线伪结点检查">
+    <parameters>
+      <p>线图层名称</p>
+      <p>线图层名称</p>
+      <p>线查询SQL语句</p>
+      <p>线查询SQL语句</p>
+    </parameters>
+  </Checker>
+  <Checker Type="DataGateWay.Checkers.CheckContourAnnotation" Description="等高线高程注记检查">
+    <parameters>
+      <p>等高线注记名称</p>
+      <p>等高线名称</p>
+      <p>等高线字段名称</p>
+    </parameters>
+  </Checker>
+  <Checker Type="DataGateWay.Checkers.CheckElevationPoints" Description="高程点注记检查">
+    <parameters>
+      <p>高程点注记名称</p>
+      <p>高程点名称</p>
+      <p>高程点字段名称</p>
+      <p>检测容差</p>
+    </parameters>
+  </Checker>
+  <Checker Type="DataGateWay.Checkers.CheckBuildingAnno" Description="建筑物注记检查">
+    <parameters>
+      <p>注记要素名称</p>
+      <p>地物要素名称</p>
+      <p>参考字段名称（以，分割各字段）</p>
+      <p>字段以外可参考的字符</p>
+      <p>搜索容差</p>
+    </parameters>
+  </Checker>
+  <Checker Type="DataGateWay.Checkers.CheckBuildingAnnoIntegrity" Description="建筑物注记完整性检查">
+    <parameters>
+      <p>注记要素名称</p>
+      <p>地物要素名称</p>
+      <p>参考字段名称（以，分割各字段）</p>
+      <p>字段以外可参考的字符</p>
+      <p>搜索容差</p>
+    </parameters>
+  </Checker>
+  <Checker Type="DataGateWay.Checkers.CheckBoundaryPointAnno" Description="界址点注记检查">
+    <parameters>
+      <p>注记要素名称</p>
+      <p>地物要素名称</p>
+      <p>参考字段名称（以，分割各字段）</p>
+      <p>字段以外可参考的字符</p>
+      <p>搜索容差</p>
+    </parameters>
+  </Checker>
+  <Checker Type="DataGateWay.Checkers.CheckSphereValue" Description="值域检查">
+    <parameters>
+      <p>图层名称</p>
+      <p>要检查字段的名称</p>
+      <p>检测值范围（用-隔开）</p>
+      <p></p>
+      <p></p>
+    </parameters>
+  </Checker>
+</Checkers>
+

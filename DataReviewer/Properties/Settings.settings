@@ -1,0 +1,33 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="DataReviewer.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="strSdeServer" Type="System.String" Scope="User">
+      <Value Profile="(Default)">localhost</Value>
+    </Setting>
+    <Setting Name="strSdeUser" Type="System.String" Scope="User">
+      <Value Profile="(Default)">sde</Value>
+    </Setting>
+    <Setting Name="Grid" Type="System.String" Scope="User">
+      <Value Profile="(Default)">tqindex</Value>
+    </Setting>
+    <Setting Name="strSdePort" Type="System.String" Scope="User">
+      <Value Profile="(Default)">5151</Value>
+    </Setting>
+    <Setting Name="strSdePswd" Type="System.String" Scope="User">
+      <Value Profile="(Default)">sde</Value>
+    </Setting>
+    <Setting Name="strSdeVersion" Type="System.String" Scope="User">
+      <Value Profile="(Default)">sde.DEFAULT</Value>
+    </Setting>
+    <Setting Name="strMxdPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">E:\测试地图.mxd</Value>
+    </Setting>
+    <Setting Name="strSdeDB" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="GridCodeField" Type="System.String" Scope="User">
+      <Value Profile="(Default)">th</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

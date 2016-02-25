@@ -1,0 +1,11 @@
+E:\工作任务\201108深圳国土数据交换QC系统开发\陈基清\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\DataCheckToolAuxillary.exe
+E:\工作任务\201108深圳国土数据交换QC系统开发\陈基清\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\DataCheckToolAuxillary.pdb
+E:\工作任务\201108深圳国土数据交换QC系统开发\陈基清\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Release\ResolveAssemblyReference.cache
+E:\工作任务\201108深圳国土数据交换QC系统开发\陈基清\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Release\DataCheckToolAuxiliary.Form1.resources
+E:\工作任务\201108深圳国土数据交换QC系统开发\陈基清\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Release\DataCheckToolAuxillary.Properties.Resources.resources
+E:\工作任务\201108深圳国土数据交换QC系统开发\陈基清\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Release\DataCheckToolAuxiliary.setting.resources
+E:\工作任务\201108深圳国土数据交换QC系统开发\陈基清\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Release\DataCheckToolAuxiliary.setting2.resources
+E:\工作任务\201108深圳国土数据交换QC系统开发\陈基清\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Release\GenerateResource-ResGen.read.1.tlog
+E:\工作任务\201108深圳国土数据交换QC系统开发\陈基清\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Release\GenerateResource-ResGen.write.1.tlog
+E:\工作任务\201108深圳国土数据交换QC系统开发\陈基清\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Release\DataCheckToolAuxillary.exe
+E:\工作任务\201108深圳国土数据交换QC系统开发\陈基清\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Release\DataCheckToolAuxillary.pdb

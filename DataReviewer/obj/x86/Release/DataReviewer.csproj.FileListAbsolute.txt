@@ -1,0 +1,16 @@
+E:\程序数据\VisualStudio\VS2010\DataGateWay\DataReviewer\bin\Release\DataReviewer.exe.config
+E:\程序数据\VisualStudio\VS2010\DataGateWay\DataReviewer\bin\Release\DataReviewer.exe
+E:\程序数据\VisualStudio\VS2010\DataGateWay\DataReviewer\bin\Release\DataReviewer.pdb
+E:\程序数据\VisualStudio\VS2010\DataGateWay\DataReviewer\bin\Release\DevComponents.DotNetBar.Design.dll
+E:\程序数据\VisualStudio\VS2010\DataGateWay\DataReviewer\bin\Release\DevComponents.DotNetBar2.DLL
+E:\程序数据\VisualStudio\VS2010\DataGateWay\DataReviewer\obj\x86\Release\ResolveAssemblyReference.cache
+E:\程序数据\VisualStudio\VS2010\DataGateWay\DataReviewer\obj\x86\Release\DataReviewer.MainForm.resources
+E:\程序数据\VisualStudio\VS2010\DataGateWay\DataReviewer\obj\x86\Release\DataReviewer.MapCatalogRelateForm.resources
+E:\程序数据\VisualStudio\VS2010\DataGateWay\DataReviewer\obj\x86\Release\DataReviewer.Properties.Resources.resources
+E:\程序数据\VisualStudio\VS2010\DataGateWay\DataReviewer\obj\x86\Release\DataReviewer.VersionSelectForm.resources
+E:\程序数据\VisualStudio\VS2010\DataGateWay\DataReviewer\obj\x86\Release\GenerateResource-ResGen.read.1.tlog
+E:\程序数据\VisualStudio\VS2010\DataGateWay\DataReviewer\obj\x86\Release\GenerateResource-ResGen.write.1.tlog
+E:\程序数据\VisualStudio\VS2010\DataGateWay\DataReviewer\obj\x86\Release\DataReviewer.exe
+E:\程序数据\VisualStudio\VS2010\DataGateWay\DataReviewer\obj\x86\Release\DataReviewer.pdb
+E:\程序数据\VisualStudio\VS2010\DataGateWay\DataReviewer\obj\x86\Release\DataReviewer.ViewTaskForm.resources
+E:\程序数据\VisualStudio\VS2010\DataGateWay\DataReviewer\obj\x86\Release\DataReviewer.CommentForm.resources
